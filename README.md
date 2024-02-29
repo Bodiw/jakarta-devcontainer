@@ -6,10 +6,11 @@ Este entorno de desarrollo contiene Java 21, Maven, Git, Docker y algunas depend
 El entorno tambien contiene algunas extensiones para Java, Redhat Community Server Connector para Debugging entre otros
 ___
 ### Getting Started
-Descarga o clona el repositorio mediante
-```
-git clone https://github.com/Bodiw/jakarta-example
-```
+Prequisito: WSL 2 de Windows o Docker
+
+1. Descarga la extension `Dev Containers` para VSCode
+2. Descarga o clona el repositorio mediante `git clone https://github.com/Bodiw/jakarta-example`
+3. Abre la carpeta en VSCode, y sigue las sugerencias de VSCode `Reopen in Container`. Esto descargará Docker si no lo has hecho aún
 
 Si vas a usar este contenedor de desarrollo, asegurate de cambiar los `com.example` en `pom.xml` y los directorios y clases en `src/main/`
 ___
